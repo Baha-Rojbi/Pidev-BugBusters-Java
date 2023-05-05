@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 avr. 2021, 00:02:31
+    Author     : Hassene
+*/
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('Milliard_Medium.otf');
+}
+
+.labelc{
+    -fx-font-family: "Milliard";
+    -fx-font-size : 21px;
+}

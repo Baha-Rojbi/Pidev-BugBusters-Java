@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 avr. 2021, 14:33:14
+    Author     : user
+*/
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-VariableFont_wght.ttf');
+}
+.table-view {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);
+}
+
+.table-view .column-header-background{
+        -fx-font-size:14px;
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-font-family: "Open Sans", sans-serif;
+
+    -fx-pref-height:38px;
+    -fx-background-color: #4dc47d;
+    -fx-text-background-color: #ffffff;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-padding: 2 0 2 10px;
+    -fx-pref-height:36px;
+    -fx-font-size:13px;
+}
+
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  #4dc47d;
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  transparent;
+}
+.hbox:hover{
+    -fx-background-color:  #383e3c;
+    -fx-opacity: 0.4;
+}

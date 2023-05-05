@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 avr. 2021, 18:18:19
+    Author     : user
+*/
+.text-input {
+    -fx-background-radius: 20px;
+    -fx-text-fill: #ffffff;
+}
+.linear-grad {
+    -fx-background-color: linear-gradient(to bottom right,#75eba4,#016328)
+}
+.button{
+    -fx-text-fill: #ffffff;
+    -fx-background-color:  linear-gradient(to bottom right,#75eba4,#4dc47d);
+}
+text-input:pressed {
+    -fx-border-color: #59ff9c ;
+}
