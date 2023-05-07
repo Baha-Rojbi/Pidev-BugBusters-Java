@@ -15,7 +15,7 @@ private String login="root";
       private String password="";
       private Connection myconn;
    private static MyConnection instance;
-       private String url="jdbc:mysql://localhost:3306/Wassalni";
+       private String url="jdbc:mysql://localhost:3306/Wassalnidb";
 
     public String getUrl() {
         return url;

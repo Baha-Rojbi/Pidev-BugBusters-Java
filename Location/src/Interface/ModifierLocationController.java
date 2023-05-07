@@ -238,17 +238,17 @@ private void modifierLocation(ActionEvent event){
          ServiceLocation rm = new ServiceLocation();
     rm.modifier(c);
     JOptionPane.showMessageDialog(null, "modification effectué avec succès.");
-     Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-
-        // Send an SMS message using the Twilio API
-        Message message = Message.creator(
-            new PhoneNumber(RECIPIENT_NUMBER),
-            new PhoneNumber(TWILIO_NUMBER),
-            "Reservation modifiée!"
-        ).create();
-
-        // Print the message SID to the console
-        System.out.println("SMS message sent with SID: " + message.getSid());
+//     Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+//
+//        // Send an SMS message using the Twilio API
+//        Message message = Message.creator(
+//            new PhoneNumber(RECIPIENT_NUMBER),
+//            new PhoneNumber(TWILIO_NUMBER),
+//            "Reservation modifiée!"
+//        ).create();
+//
+//        // Print the message SID to the console
+//        System.out.println("SMS message sent with SID: " + message.getSid());
     ArrayList<Location> publiciteList = (ArrayList<Location>) rm.afficher();
         ObservableList<Location> donnee = FXCollections.observableArrayList(publiciteList); 
         TV.setItems(donnee);

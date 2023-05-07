@@ -370,17 +370,17 @@ private void Ajouter_voiture(ActionEvent event) {
         alert.setHeaderText(null);
         alert.setContentText("La voiture a été ajoutée avec succès.");
         alert.showAndWait();
-         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-
-        // Send an SMS message using the Twilio API
-        Message message = Message.creator(
-            new PhoneNumber(RECIPIENT_NUMBER),
-            new PhoneNumber(TWILIO_NUMBER),
-            "Voiture de location ajoutée!"
-        ).create();
-
-        // Print the message SID to the console
-        System.out.println("SMS message sent with SID: " + message.getSid());
+//         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+//
+//        // Send an SMS message using the Twilio API
+//        Message message = Message.creator(
+//            new PhoneNumber(RECIPIENT_NUMBER),
+//            new PhoneNumber(TWILIO_NUMBER),
+//            "Voiture de location ajoutée!"
+//        ).create();
+//
+//        // Print the message SID to the console
+//        System.out.println("SMS message sent with SID: " + message.getSid());
     }
   
 
