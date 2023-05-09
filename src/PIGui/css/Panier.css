@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 avr. 2021, 12:20:10
+    Author     : Hassene
+*/
+@font-face {
+    font-family: 'Ropa Sans';
+    src: url('RopaSans-Regular.ttfs');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Regular.ttf');
+}
+.total_menu:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.buttonc{
+    -fx-text-fill: #ffffff;
+    -fx-background-color:   #4dc47d;
+}
+.label {
+    -fx-font-family : 'Ropa Sans';
+    -fx-font-size: 14;
+}
+.nom_prod {
+    -fx-font-family : 'Ropa Sans';
+    -fx-font-size: 16;
+    
+}
+.desc_prod {
+    -fx-font-family : 'Ropa Sans';
+    -fx-font-size: 10;
+    -fx-text-fill: #a7a6a6;
+}.remove {
+    -fx-font-size: 200;
+    -fx-text-fill: #4dc47d;
+}
+.buttonr{
+        -fx-background-color:  transparent;
+}
+.scroll-pane .virtual-flow .scroll-bar:vertical,
+.scroll-pane .virtual-flow .scroll-bar:vertical .track,
+.scroll-pane .virtual-flow .scroll-bar:vertical .track-background,
+.scroll-pane .virtual-flow .scroll-bar:horizontal,
+.scroll-pane .virtual-flow .scroll-bar:horizontal .track,
+.scroll-pane .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.scroll-pane > .corner {    
+    -fx-background-color: #191A19 ;
+}

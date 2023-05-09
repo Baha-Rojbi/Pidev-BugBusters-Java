@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PIGui.Wassim.TypeBController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="703.0" prefWidth="1017.0" style="-fx-background-color: #eee;">
+         <children>
+            <VBox layoutX="-2.0" layoutY="41.0" prefHeight="662.0" prefWidth="222.0" style="-fx-background-color: #064F51;">
+               <children>
+                  <HBox alignment="BOTTOM_CENTER" layoutX="10.0" layoutY="423.0" prefHeight="106.0" prefWidth="239.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="82.0" style="-fx-background-color: Transparent;">
+                           <graphic>
+                              <ImageView fitHeight="74.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/logo.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="470.0" prefHeight="47.0" prefWidth="263.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="263.0">
+                           <children>
+                              <TextField prefHeight="37.0" prefWidth="407.0" promptText="Search ..." style="-fx-background-color: transparent; -fx-text-inner-color: #ffffff;">
+                                 <font>
+                                    <Font name="Arial" size="14.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="282.0" prefHeight="53.0" prefWidth="263.0" styleClass="hbox" stylesheets="@../../../Campi-java-master/src/css/Dashboard.css">
+                     <children>
+                     
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" style="-fx-background-color: Transparent; -fx-text-fill: #ffffff;" text="Utilisateurs ">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="329.0" prefHeight="58.0" prefWidth="263.0" styleClass="hbox" stylesheets="@../../../Campi-java-master/src/css/Dashboard.css">
+                     <children>
+                      
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" style="-fx-background-color: Transparent; -fx-text-fill: #ffffff;" text="Chauffeurs">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="376.0" prefHeight="57.0" prefWidth="263.0" styleClass="hbox" stylesheets="@../../../Campi-java-master/src/css/Dashboard.css">
+                     <children>
+                       
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" style="-fx-background-color: Transparent; -fx-text-fill: #ffffff;" text="Annonces">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="105.0" prefHeight="53.0" prefWidth="263.0" stylesheets="@../../../Campi-java-master/src/css/Dashboard.css">
+                     <children>
+                      
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" style="-fx-background-color: Transparent; -fx-text-fill: #ffffff;" text="Livraisons">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="273.0" prefHeight="53.0" prefWidth="263.0" styleClass="hbox" stylesheets="@../../../Campi-java-master/src/css/Dashboard.css">
+                     <children>
+                      
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" style="-fx-background-color: Transparent; -fx-text-fill: #ffffff;" text="Event">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="326.0" prefHeight="53.0" prefWidth="263.0" styleClass="hbox" stylesheets="@../../../Campi-java-master/src/css/Dashboard.css">
+                     <children>
+                       
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="47.0" prefWidth="161.0" style="-fx-background-color: Transparent; -fx-text-fill: #ffffff;" text="Location">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Pane layoutX="-1.0" prefHeight="44.0" prefWidth="1018.0" style="-fx-background-color: #009398; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 7, 0, 0, 0);">
+               <children>
+                 
+                              <Button fx:id="closeb" layoutX="13.0" layoutY="9.0" mnemonicParsing="false" opacity="0.0" prefHeight="25.0" prefWidth="14.0" text="Button" />
+                  <HBox alignment="CENTER_LEFT" layoutX="810.0" layoutY="1.0" prefHeight="44.0" prefWidth="170.0" />
+               </children>
+            </Pane>
+            <ScrollPane layoutX="220.0" layoutY="38.0" prefHeight="662.0" prefWidth="798.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="663.0" prefWidth="782.0">
+                     <children>
+                        <Pane prefHeight="64.0" prefWidth="741.0" style="-fx-background-color: white; -fx-border-color: #eee;">
+                           <children>
+                              <Label layoutX="26.0" layoutY="24.0" prefHeight="28.0" prefWidth="196.0" text="Ajouter Type:">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="355.0" layoutY="27.0" prefHeight="28.0" prefWidth="196.0" text="Liste Type:">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Separator layoutX="272.0" layoutY="-3.0" orientation="VERTICAL" prefHeight="651.0" prefWidth="5.0" />
+                        <Text layoutX="14.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type d'evenement:" wrappingWidth="130.4000000000001">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="typec" layoutX="22.0" layoutY="184.0" promptText="Entrez un type" />
+                        <Text layoutX="23.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:" wrappingWidth="130.4000000000001">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="desc1" layoutX="22.0" layoutY="284.0" promptText="Entrez une description" />
+                        <TableView fx:id="tblViewCurrentStore" layoutX="278.0" layoutY="190.0" prefHeight="238.0" prefWidth="446.0">
+                          <columns>
+                              <TableColumn fx:id="ID" minWidth="0.0" prefWidth="0.0" text="ID" />
+                            <TableColumn fx:id="category" prefWidth="190.4000244140625" text="Categorie" />
+                            <TableColumn fx:id="description" prefWidth="228.0" text="Description" />
+                          </columns>
+                        </TableView>
+                        <Text layoutX="291.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechercher:" wrappingWidth="130.4000000000001">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="tfSearch" layoutX="371.0" layoutY="96.0" promptText="Categorie" />
+                        <Button fx:id="btnAddNew" layoutX="14.0" layoutY="401.0" mnemonicParsing="false" onAction="#btnAddNewOnAction" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #009398;" text="Add New" textFill="#f7f5f5" />
+                        <Button fx:id="btnUpdate" layoutX="186.0" layoutY="401.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #5091cb;" text="Update" textFill="#f7f5f5" />
+                        <Button fx:id="btnDelete" layoutX="104.0" layoutY="401.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #c3352b;" text="Delete" textFill="#f7f5f5" />
+                        <Button layoutX="329.0" layoutY="470.0" mnemonicParsing="false" onAction="#triDSC" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #009398;" text="Tri ASC" textFill="#f7f5f5" />
+                        <Button fx:id="showbtn1" layoutX="620.0" layoutY="470.0" mnemonicParsing="false" onAction="#btnselect" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #009398;" text="Select" textFill="#f7f5f5" />
+                        <Button fx:id="excel" layoutX="426.0" layoutY="470.0" mnemonicParsing="false" onAction="#excelmth" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #009398;" text="Excel" textFill="#f7f5f5" />
+                        <TextField fx:id="id" layoutX="14.0" layoutY="96.0" opacity="0.0" />
+                        <Button layoutX="521.0" layoutY="470.0" mnemonicParsing="false" onAction="#QR" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #009398;" text="Qr Code" textFill="#f7f5f5" />
+                        <ImageView fx:id="qrcode" fitHeight="132.0" fitWidth="130.0" layoutX="128.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="9.0" layoutY="88.0" mnemonicParsing="false" onAction="#Back" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #512f84;" text="Back" textFill="WHITE" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
