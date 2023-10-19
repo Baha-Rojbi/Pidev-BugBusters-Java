@@ -1,6 +1,6 @@
 # Pidev-BugBuster-Java
 
-🚗PiDev 3A esprit Car Rental, Carpool, and Delivery Desktop Application 📦
+🚗PiDev 3A esprit Java Car Rental, Carpool, and Delivery Desktop Application 📦
 
 Welcome to our Java and JavaFX-based desktop application designed to streamline car rental, carpooling, and delivery services. Whether you're a student working on a school project or a developer interested in contributing, this repository is your gateway to an all-in-one solution for transportation and delivery management.
 
